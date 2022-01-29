@@ -90,15 +90,15 @@ export class Board extends React.Component {
       game_board[squareNum] = "O";
     }
     let gameOver = false;
-    if (this.checkWin(squareNum, game_board)) {
-      gameOver = true;
-      alert("Game over: Winner is " + game_board[squareNum]);
-    }
+
+    if (this.checkWin(squareNum, game_board)) gameOver = true;
+
     this.setState({
       game_board: game_board,
       x_turn: !this.state.x_turn,
       gameOver: gameOver,
     });
+    if (gameOver) alert("Game over: Winner is " + game_board[squareNum]);
   }
   render() {
     return (
