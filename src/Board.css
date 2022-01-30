@@ -4,7 +4,10 @@
   justify-content: space-around;
   align-items: center;
 }
-
+.winnerMsg {
+  color: white;
+  margin: 10px;
+}
 .row {
   display: flex;
   flex-direction: row;

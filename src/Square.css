@@ -1,9 +1,11 @@
 .square {
+  color: white;
+  font: normal small-caps normal 16px/1.4 Georgia;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
-  width: 70px;
-  height: 70px;
+  border: 1px solid white;
+  width: 110px;
+  height: 110px;
   padding: 0px;
 }

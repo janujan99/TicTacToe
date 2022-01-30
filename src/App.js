@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { Board } from "./board";
 
 function App() {
