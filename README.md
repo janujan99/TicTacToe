@@ -1,3 +1,3 @@
 Made tic-tac-toe using React.js
 
-Run App.js to get started
+Run index.js to get started
